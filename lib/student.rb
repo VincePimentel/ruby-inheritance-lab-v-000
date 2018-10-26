@@ -11,6 +11,6 @@ class Student < User
   end
 
   def knowledge
-    @knowledge
+    @knowledge.collect { |knowledge| puts knowledge }
   end
 end
