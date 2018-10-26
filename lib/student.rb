@@ -15,7 +15,7 @@ class Student < User
   end
 
   def print_knowledge
-    @knowledge.collect do |knowledge|
+    selfknowledge.collect do |knowledge|
       puts knowledge
     end
   end
