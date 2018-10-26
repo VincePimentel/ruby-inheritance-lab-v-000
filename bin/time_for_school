@@ -28,4 +28,4 @@ vince.learn(some_knowledge)
 
 #puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 #puts "Jim just learned this important knowledge: '#{jim.knowledge.first}' from Avi"
-puts "Vince just learned this important knowledge: '#{vince.knowledge.first}' from Avi"
+puts "Vince just learned this important knowledge: '#{vince.knowledge}' from Avi"
