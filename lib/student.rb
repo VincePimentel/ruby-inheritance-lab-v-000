@@ -13,4 +13,10 @@ class Student < User
   def knowledge
     @knowledge
   end
+
+  def print_knowledge
+    self.knowledge.collect do |knowledge|
+      puts knowledge
+    end
+  end
 end
